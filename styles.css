@@ -1,0 +1,89 @@
+/* CSS for Responsive Dashboard */
+
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.left-column {
+  width: 20%;
+  background-color: purple;
+  color: white;
+}
+
+.middle-column {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.right-column {
+  width: 20%;
+}
+
+/* Styles for left column */
+.logo {
+  /* Logo styles */
+}
+
+.menu {
+  /* Menu styles */
+}
+
+/* Styles for middle column */
+.squares {
+  /* Styles for four squares */
+}
+
+.latest-activities {
+  background-color: white;
+  padding: 10px;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: red; /* Change color as needed */
+  margin-right: 10px;
+}
+
+.details {
+  flex: 1;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.act {
+  color: #999;
+}
+
+.action {
+  font-weight: bold;
+}
+
+/* Styles for right column */
+.user-info {
+  /* User info styles */
+}
+
+.employee-section,
+.contacts-section {
+  margin-top: 20px;
+}
+
+.card {
+  /* Card styles */
+}
